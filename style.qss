@@ -1,0 +1,28 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+}
+
+QMainWindow {
+    background-color: #363A4F;
+}
+
+QCalendarWidget QWidget {
+    background-color: #363A4F;
+    color: #CAD3F5;
+}
+
+QLabel {
+    background-color: #363A4F;
+    color: #CAD3F5;
+    font-size: 18px;
+}
+
+QCalendarWidget QAbstractItemView {
+    selection-background-color: transparent;
+    font-size: 16px;
+}
+
+QCalendarWidget QAbstractItemView::item:selected {
+    border: none;
+}
