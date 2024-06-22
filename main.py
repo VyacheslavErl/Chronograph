@@ -28,7 +28,7 @@ class CalendarWindow(QMainWindow):
         
         self.update_date_label()
 
-        with open("style.qss", "r") as f:
+        with open("/usr/share/chronograph/style.qss", "r") as f:
             self.setStyleSheet(f.read())
     
     def update_date_label(self):
