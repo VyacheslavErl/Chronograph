@@ -10,5 +10,5 @@ Chronograph является частью проекта Vanity Realm.
 ### Установка через AUR
 Если вы используете Arch Linux или его производные, вы можете установить Chronograph через AUR:
 ``` sh
-yay -S chronograph
+yay -S chronograph-git
 ```
